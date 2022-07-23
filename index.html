@@ -13,35 +13,35 @@
 </head>
 <body>
     <div class="bg">
-        
+        <br><br><br><br><br><br><br>
         <div class="flex-container">
             <div class="title">Start Coding Now</div>
             <div class="form">
                 <form action="#" method="post" class="sign-up">
                 
                     <label for="fname">First Name: </label>
-                    <input type="text" name="" id="fname">
+                    <input type="text" name="" id="fname" title="Enter your first name." required>
 
                     <label for="lname">Last Name: </label>
-                    <input type="text" name="" id="lname">
+                    <input type="text" name="" id="lname" title="Enter your last name."required>
 
                     <label for="phone">Phone Number: </label>
-                    <input type="number" name="" id="phone">
+                    <input type="number" name="" id="phone" title="Enter your phone number."required>
 
-                    <label for="email">Email: </label>
-                    <input type="email" name="" id="email">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="" id="email" title="Enter your E-mail."required>
 
                     <label for="password">Create Password: </label>
-                    <input type="password" name="" id="password">
+                    <input type="password" name="" id="password" title="Create a strong password with a minimum of 6 characters."minlength="6" maxlength="20" required >
 
                     <label for="confirmpassword">Confirm Password: </label>
-                    <input type="password" name="" id="confirmpassword">
+                    <input type="password" name="" id="confirmpassword" title="Confirm your password."required>
                     <div>
-                        <input type="checkbox" name="" id="agree">
+                        <input type="checkbox" name="" id="agree" title="By checking this, you are agreeing to our terms and conditions."required>
                         <label for="agree">I agree on the terms and conditions. </label>
                     </div>
 
-                <button type="submit">Submit</button>   
+                <input type="submit" value="Submit" id="submit" title="Submit">  
                 </form>
             </div>
         </div>

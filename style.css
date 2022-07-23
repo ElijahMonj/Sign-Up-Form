@@ -8,28 +8,74 @@ body,html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex-container {
+    position:static;
     justify-content: center;
-    
     border-radius: 5px;
     display: flex;    
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);    
 }
 .flex-container > div {
     flex: 1; 
 }
 .title{
-    font-size: 7em;
+    font-size: 100px;
     font-family: 'Cairo', sans-serif;
 }
 .form{
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 .sign-up{
     display: flex;
     flex-direction: column; 
 }
+#fname,#lname,#email,#password,#phone,#confirmpassword,#submit{
+    font-size: 17px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#submit {
+    background-color: gray; /* Green */
+    
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin: 3px 1.5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px black;
+  }
+
+  #submit:hover {
+    background-color: lightblue;
+    color: white;
+  }
