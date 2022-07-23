@@ -1,0 +1,23 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url("bg.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-container {
+    border-radius: 5px;
+    display: flex;    
+    background: rgba(0, 0, 0, 0.5);
+}
+.flex-container > div {
+    flex: 1; 
+}
+.title{
+    font-size: 7em;
+    font-family: 'Cairo', sans-serif;
+}
